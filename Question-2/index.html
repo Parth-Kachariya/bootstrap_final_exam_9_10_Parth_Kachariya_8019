@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question-2</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="text-center py-2">FAQ Section Using the accordion</h2>
+      <div class="row border border-2 p-4 rounded-2">
+        <div class="col-12 col-lg-6 my-3 my-lg-0">
+          <h2>about front end developing</h2>
+          <img class="img-fluid rounded-2 h-auto " src="./asset/images/hand-drawn-web-developers_23-2148819604.avif" alt="">
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item border-0">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button text-black fw-bold"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  HTML
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse show"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <b> HTML stands for HyperText Markup Language.</b> It is the
+                  standard language used to create the structure of web pages.
+                  such as headings, paragraphs, images, links, buttons, and
+                  moreHTML is a markup language, meaning it uses tags to label
+                  and organize content so that browsers can display it
+                  correctly.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item border-0">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed text-black fw-bold"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  CSS
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <b>CSS stands for Cascading Style Sheets.</b> It is a styling
+                  language used to describe the appearance and layout of HTML
+                  elements on a web page. While HTML builds the structure of a
+                  website, CSS controls how that structure looks and feels —
+                  including colors, fonts, spacing, layout, backgrounds,
+                  borders, hover effects, transitions, and responsiveness. For
+                  example, if you have a heading in HTML, CSS allows you to
+                  change its color to blue, center it, make it bold, or give it
+                  a background. CSS follows a "cascading" rule, meaning styles
+                  can be inherited and overridden depending on how they are
+                  written and where they appear in the code.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item border-0">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed text-black fw-bold"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  JS
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <b>JavaScript is a powerful programming language</b> used to
+                  make web pages interactive and dynamic. While HTML gives
+                  structure and CSS gives style, JavaScript brings the website
+                  to life by allowing real-time interactions like clicking
+                  buttons, submitting forms, showing/hiding content, creating
+                  sliders, animations, pop-ups, live search, and much more. It
+                  runs directly in the browser, so users can interact with the
+                  page without reloading it.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item border-0">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed text-black fw-bold"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapsefour"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  REACT-JS
+                </button>
+              </h2>
+              <div
+                id="collapsefour"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  <b> React.js (or just React) is a popular JavaScript
+                  library </b> used for building modern, fast, and interactive user
+                  interfaces — especially for single-page applications (SPAs).
+                  It was developed by Facebook and is now maintained by Meta and
+                  a large open-source community.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
